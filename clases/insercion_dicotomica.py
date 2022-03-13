@@ -14,7 +14,7 @@ class dicotomia2:
         r=[]
         self=r
     
-    def ordenar(self):
+    def ordenar_vacia(self):
         dicotomia1.ordenar(self)
         for i in self.tabla:
             self.r.append(i)
