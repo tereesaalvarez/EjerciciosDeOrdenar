@@ -1,6 +1,6 @@
 # EJERCICIOS DE ORDENAR
 
-La dirección de Github para este repositorio es la siguiente:
+La dirección de Github para este repositorio es la siguiente: https://github.com/tereesaalvarez/EjerciciosDeOrdenar.git
 
 # Main
 
