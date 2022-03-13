@@ -17,5 +17,5 @@ class dicotomia2:
     def ordenar(self):
         dicotomia1.ordenar(self)
         for i in self.tabla:
-            self.append(i)
-        return self
+            self.r.append(i)
+        return self.r
