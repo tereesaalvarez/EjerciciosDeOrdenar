@@ -24,3 +24,6 @@ class segmento_de_tablas:
 
 
     def explorar(self, segmento_de_tablas):
+        mi = segmento_de_tablas[0]
+        segmento_de_tablas = segmento_de_tablas[1:] + segmento_de_tablas[:1]
+        return segmento_de_tablas
