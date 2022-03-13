@@ -1,4 +1,4 @@
-
+"Primera Parte"
 class dicotomia1:
     def __init__(self, tabla):
         self.tabla = tabla
@@ -6,7 +6,8 @@ class dicotomia1:
     def ordenar(self):
         self.tabla.sort()
         return self.tabla
-
+        
+"Segunda Parte"
 class dicotomia2:
     def __init__(self, tabla):
         dicotomia1.__init__(self, tabla)
