@@ -1,3 +1,4 @@
+
 class dicotomia1:
     def __init__(self, tabla):
         self.tabla = tabla
