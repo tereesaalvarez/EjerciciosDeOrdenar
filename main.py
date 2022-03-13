@@ -20,3 +20,6 @@ if __name__ == "__main__":
    vector = [3, -8, 9, 6, 19, -4, 1, 9, 8, -1]
    resultado = lista(vector)
    print("El resultado de este ejercicio tras ordenarse: {}".format(resultado.ordenacion_burbuja()))
+
+
+   from clases.esta_explorado import *
