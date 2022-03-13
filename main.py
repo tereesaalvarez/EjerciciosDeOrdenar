@@ -1,5 +1,3 @@
-from clases.insercion_dicotomica import dicotomia1, dicotomia2
-
 
 if __name__ == "__main__":
 
@@ -13,7 +11,7 @@ if __name__ == "__main__":
 
    print("Segundo apartado: ")
    resultado2= dicotomia2(tabla)
-   print("Ordenando a partir de una lista vacia, la lista es : {}".format(resultado2.orde))
+   print("Ordenando a partir de una lista vacia, la lista es : {}".format(resultado2.ordenar_vacia()))
 
 
 
