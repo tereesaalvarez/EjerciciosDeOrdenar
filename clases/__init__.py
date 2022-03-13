@@ -1,14 +1,14 @@
 try:
-    from clases.insercion_dicotomica import (
+    from .insercion_dicotomica import (
         ordenar, 
-        ordenar_vacia
+        ordenar_vacia,
     )
 
-    from clases.ordenacion_topológica import(
+    from .ordenacion_topológica import(
         ordenacion_burbuja
     )
 
-    from clases.esta_explorado import (
+    from .esta_explorado import (
         segmento,
         explorar
     )
