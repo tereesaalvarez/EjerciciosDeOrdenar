@@ -12,7 +12,7 @@ class dicotomia2:
     def __init__(self, tabla):
         dicotomia1.__init__(self, tabla)
         r=[]
-        self=r
+        self.r =r
     
     def ordenar_vacia(self):
         dicotomia1.ordenar(self)

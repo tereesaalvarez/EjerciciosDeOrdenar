@@ -16,3 +16,7 @@ if __name__ == "__main__":
 
 
    from clases.ordenacion_topológica import *
+   print("El ejercicio 2: ")
+   vector = [3, -8, 9, 6, 19, -4, 1, 9, 8, -1]
+   resultado = lista(vector)
+   print("El resultado de este ejercicio tras ordenarse: {}".format(resultado.ordenacion_burbuja()))
