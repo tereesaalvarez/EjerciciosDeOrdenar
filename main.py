@@ -23,3 +23,9 @@ if __name__ == "__main__":
 
 
    from clases.esta_explorado import *
+   print("El ejercicio 3: ")
+   vector = [3, -8, 9, 6, 19, -4, 1, 9, 8, -1]
+   resultado = segmento_de_tablas(vector)
+   print("Los segmentos de {} son: {}".format(vector, resultado.segmento_de_tablas()))
+   print("Tras aplicar la funcion explorar los segmentoss quedan de la siguiente manera: ")
+   print(resultado.esta_explorado(resultado.segmento_de_tablas()[0]), " - ", resultado.esta_explorado(resultado.segmento_de_tablas()[1]))
